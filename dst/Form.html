@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Longin/Signup | Tailwind CSS</title>
+  </head>
+
+  <body>
+    <div class="flex h-screen">
+      <img
+        class="w-[50%] m-2 rounded-lg hidden md:block"
+        src="https://images.pexels.com/photos/3186654/pexels-photo-3186654.jpeg?auto=compress&cs=tinysrgb&w=600"
+        alt=""
+      />
+
+      <div class="flex flex-col items-center justify-center w-full lg:w-1/2">
+        <div class="text-xl text-center font-bold md:text-left">
+          <span class="text-red-600">&#9650;</span>
+          <span>My Choice</span>
+        </div>
+        <div class="text-3xl text-center font-bold lg:text-left">
+          <h2 class="font-bold">Hello,</h2>
+          <h2 class="font-bold">Welcome Back</h2>
+        </div>
+
+        <!-- Login Form  -->
+
+        <form action="" class="mt-8 w-[80%] lg:w-96 mx-auto space-y-4">
+          <h4>Login to manage your Account</h4>
+          <input
+            type="email"
+            name=""
+            placeholder="Email"
+            id=""
+            class="border w-full px-4 py-2 border-gray-500"
+          />
+          <input
+            type="password"
+            name=""
+            placeholder="Password"
+            id=""
+            class="border w-full px-4 py-2 border-gray-500"
+          />
+          <div class="text-blue-500 cursor-pointer">Forgot your password ?</div>
+
+          <button
+            class="w-full bg-green-600 text-white font-bold py-2 rounded-lg font-bold hover:bg-green-500"
+          >
+            Login
+          </button>
+        </form>
+        <div class="text-center space-y-4 m-4">
+          <span> OR</span>
+          <div class="flex justify-center items-center gap-8">
+            <i class="fa-brands fa-instagram text-2xl cursor-pointer"> </i>
+            <i class="fa-brands fa-google text-2xl cursor-pointer"> </i>
+            <i class="fa-brands fa-facebook text-2xl cursor-pointer"> </i>
+          </div>
+        </div>
+        <div class="mt-4 text-sm text-center">
+          Don't have an account ?
+          <span class="text-blue-600 cursor-pointer">Sign up here</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
